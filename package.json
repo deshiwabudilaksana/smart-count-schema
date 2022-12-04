@@ -1,0 +1,27 @@
+{
+  "name": "smart-count-schema",
+  "version": "1.0.1",
+  "description": "Schema written for smart-count app",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^28.1.4",
+    "crypto-random-string": "^5.0.0",
+    "graphql-compose-mongoose": "^9.7.2",
+    "mongoose": "^6.7.5"
+  },
+  "devDependencies": {
+    "jest": "^28.0.5",
+    "typescript": "^4.9.3",
+    "ts-jest": "^28.0.5"
+  },
+  "jest": {
+    "transform": {
+      "\\.ts$": "ts-jest"
+    }
+  }
+}
