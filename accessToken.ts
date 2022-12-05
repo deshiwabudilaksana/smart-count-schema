@@ -31,10 +31,10 @@ const accessTokenSchema = new Schema(
 
 accessTokenSchema.index({ expireAt: 1 }, { expires: 1 });
 
-const AccessToken = mongoose.model<IAccessTokenModel>(
+const AccessTokenModel = mongoose.model<IAccessTokenModel>(
   "AccessToken",
   accessTokenSchema,
   "AccessToken"
 );
 
-export { AccessToken, IAccessTokenModel };
+export { AccessTokenModel, IAccessTokenModel };

@@ -2,16 +2,15 @@
   "name": "smart-count-schema",
   "version": "1.0.1",
   "description": "Schema written for smart-count app",
-  "main": "index.js",
+  "main": "index",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc"
   },
-  "author": "",
+  "author": "Deshiwa Budilaksana",
   "license": "ISC",
   "dependencies": {
     "@types/jest": "^28.1.4",
-    "crypto-random-string": "^5.0.0",
-    "graphql-compose-mongoose": "^9.7.2",
     "mongoose": "^6.7.5"
   },
   "devDependencies": {
@@ -23,5 +22,14 @@
     "transform": {
       "\\.ts$": "ts-jest"
     }
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deshiwabudilaksana/smart-count-schema.git"
+  },
+  "private": false,
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "engineStrict": true
 }
